@@ -8,7 +8,7 @@ import imageio
 
 def main():
     input_directory = "./ExampleHuman_original_data/images"
-    output_multipage_tiff = "merged.tiff"
+    output_multipage_tiff = "merged.tif"
 
     try:
         input_tiff_filenames = get_tiff_files_in_directory(input_directory)
