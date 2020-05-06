@@ -14,7 +14,7 @@ __2.__ Python script to create a multi-page tiff from numpy objects (by @davelop
 __3.__ To run CellProfiler using the multi-page tif some adjustments are needed:
   - Module `Metadata` 
       - Metadata extraction method -> `Extract from image file headers`
-  - Module `NamesAndTypes`: 
+  - Module `NamesAndTypes` (this config might not be needed)
       - Assign a name to -> `Images matching rules`
       - Match `All` of the following rules
       - Select the rule criteria: 
